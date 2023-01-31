@@ -37,5 +37,8 @@ _deps
 .history
 .ionide
 
+# openocd files
+openocd.cfg
+
 # Build folder
 build
