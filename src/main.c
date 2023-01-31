@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdint.h>
-
 #include "stm32f4xx.h"
 #include "stm32f4xx_gpio.h"
 #include "stm32f4xx_rcc.h"
 
 
-// Функция программной задержки
+// Delay func
 void Soft_Delay(volatile uint32_t number)
 {
   while(number--);
@@ -16,13 +15,13 @@ void Soft_Delay(volatile uint32_t number)
 int main (void) 
 {
   RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
-  GPIO_InitTypeDef  ledinit;  // создаем структуру
+  GPIO_InitTypeDef  ledinit;  // struct creation
 
-  ledinit.GPIO_Mode = GPIO_Mode_OUT;  // направление - выход
-  ledinit.GPIO_OType = GPIO_OType_PP;  // Двухтактный выход
-  ledinit.GPIO_PuPd = GPIO_PuPd_NOPULL;  // Без подтяжки
-  ledinit.GPIO_Speed = GPIO_Speed_2MHz;  // Скорость низкая
-  ledinit.GPIO_Pin = GPIO_Pin_13; // Светодиод на 15м выводе
+  ledinit.GPIO_Mode = GPIO_Mode_OUT;  // direction - output
+  ledinit.GPIO_OType = GPIO_OType_PP;  // Push-Pull output
+  ledinit.GPIO_PuPd = GPIO_PuPd_NOPULL;  // No pull-up and no pull-down
+  ledinit.GPIO_Speed = GPIO_Speed_2MHz;  // Low speed
+  ledinit.GPIO_Pin = GPIO_Pin_13; // Led on the Pin 13
 
   GPIO_Init(GPIOC, &ledinit);
   
@@ -37,13 +36,10 @@ int main (void)
 
 void Error_Handler(void)
 {
-  /* USER CODE BEGIN Error_Handler_Debug */
-  /* User can add his own implementation to report the HAL error return state */
   __disable_irq();
   while (1)
   {
   }
-  /* USER CODE END Error_Handler_Debug */
 }
 
 #ifdef  USE_FULL_ASSERT
