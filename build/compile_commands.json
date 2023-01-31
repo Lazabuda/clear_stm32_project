@@ -1,0 +1,67 @@
+[
+{
+  "directory": "E:/Coding/STM32/Projects/clear_stm32_project/build",
+  "command": "C:\\ARM\\cross-cortex\\bin\\arm-none-eabi-gcc.exe -I../Libraries/CMSIS/Include -I../Libraries/CMSIS/Device/ST/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../include -mcpu=cortex-m4  -mthumb -ffunction-sections -fdata-sections          -g -fno-common -fmessage-length=0 -specs=nano.specs -specs=nosys.specs -std=gnu99 -Og -g -DDEBUG -DTRACE   -DSTM32F4xx_MD -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o CMakeFiles\\Appd.elf.dir\\src\\main.c.obj -c E:\\Coding\\STM32\\Projects\\clear_stm32_project\\src\\main.c",
+  "file": "E:/Coding/STM32/Projects/clear_stm32_project/src/main.c"
+},
+{
+  "directory": "E:/Coding/STM32/Projects/clear_stm32_project/build",
+  "command": "C:\\ARM\\cross-cortex\\bin\\arm-none-eabi-gcc.exe -I../Libraries/CMSIS/Include -I../Libraries/CMSIS/Device/ST/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../include -mcpu=cortex-m4  -mthumb -ffunction-sections -fdata-sections          -g -fno-common -fmessage-length=0 -specs=nano.specs -specs=nosys.specs -std=gnu99 -Og -g -DDEBUG -DTRACE   -DSTM32F4xx_MD -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o CMakeFiles\\Appd.elf.dir\\src\\stm32f4xx_it.c.obj -c E:\\Coding\\STM32\\Projects\\clear_stm32_project\\src\\stm32f4xx_it.c",
+  "file": "E:/Coding/STM32/Projects/clear_stm32_project/src/stm32f4xx_it.c"
+},
+{
+  "directory": "E:/Coding/STM32/Projects/clear_stm32_project/build",
+  "command": "C:\\ARM\\cross-cortex\\bin\\arm-none-eabi-gcc.exe -I../Libraries/CMSIS/Include -I../Libraries/CMSIS/Device/ST/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../include -mcpu=cortex-m4  -mthumb -ffunction-sections -fdata-sections          -g -fno-common -fmessage-length=0 -specs=nano.specs -specs=nosys.specs -std=gnu99 -Og -g -DDEBUG -DTRACE   -DSTM32F4xx_MD -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o CMakeFiles\\Appd.elf.dir\\src\\system_stm32f4xx.c.obj -c E:\\Coding\\STM32\\Projects\\clear_stm32_project\\src\\system_stm32f4xx.c",
+  "file": "E:/Coding/STM32/Projects/clear_stm32_project/src/system_stm32f4xx.c"
+},
+{
+  "directory": "E:/Coding/STM32/Projects/clear_stm32_project/build",
+  "command": "C:\\ARM\\cross-cortex\\bin\\arm-none-eabi-gcc.exe -I../Libraries/CMSIS/Include -I../Libraries/CMSIS/Device/ST/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../include -g   -DSTM32F4xx_MD -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o CMakeFiles\\Appd.elf.dir\\src\\startup_stm32f401xc.s.obj -c E:\\Coding\\STM32\\Projects\\clear_stm32_project\\src\\startup_stm32f401xc.s",
+  "file": "E:/Coding/STM32/Projects/clear_stm32_project/src/startup_stm32f401xc.s"
+},
+{
+  "directory": "E:/Coding/STM32/Projects/clear_stm32_project/build",
+  "command": "C:\\ARM\\cross-cortex\\bin\\arm-none-eabi-gcc.exe -I../Libraries/CMSIS/Include -I../Libraries/CMSIS/Device/ST/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../include -mcpu=cortex-m4  -mthumb -ffunction-sections -fdata-sections          -g -fno-common -fmessage-length=0 -specs=nano.specs -specs=nosys.specs -std=gnu99 -Og -g -DDEBUG -DTRACE   -DSTM32F4xx_MD -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o CMakeFiles\\Appd.elf.dir\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_gpio.c.obj -c E:\\Coding\\STM32\\Projects\\clear_stm32_project\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_gpio.c",
+  "file": "E:/Coding/STM32/Projects/clear_stm32_project/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c"
+},
+{
+  "directory": "E:/Coding/STM32/Projects/clear_stm32_project/build",
+  "command": "C:\\ARM\\cross-cortex\\bin\\arm-none-eabi-gcc.exe -I../Libraries/CMSIS/Include -I../Libraries/CMSIS/Device/ST/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../include -mcpu=cortex-m4  -mthumb -ffunction-sections -fdata-sections          -g -fno-common -fmessage-length=0 -specs=nano.specs -specs=nosys.specs -std=gnu99 -Og -g -DDEBUG -DTRACE   -DSTM32F4xx_MD -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o CMakeFiles\\Appd.elf.dir\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_i2c.c.obj -c E:\\Coding\\STM32\\Projects\\clear_stm32_project\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_i2c.c",
+  "file": "E:/Coding/STM32/Projects/clear_stm32_project/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c"
+},
+{
+  "directory": "E:/Coding/STM32/Projects/clear_stm32_project/build",
+  "command": "C:\\ARM\\cross-cortex\\bin\\arm-none-eabi-gcc.exe -I../Libraries/CMSIS/Include -I../Libraries/CMSIS/Device/ST/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../include -mcpu=cortex-m4  -mthumb -ffunction-sections -fdata-sections          -g -fno-common -fmessage-length=0 -specs=nano.specs -specs=nosys.specs -std=gnu99 -Og -g -DDEBUG -DTRACE   -DSTM32F4xx_MD -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o CMakeFiles\\Appd.elf.dir\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_flash.c.obj -c E:\\Coding\\STM32\\Projects\\clear_stm32_project\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_flash.c",
+  "file": "E:/Coding/STM32/Projects/clear_stm32_project/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c"
+},
+{
+  "directory": "E:/Coding/STM32/Projects/clear_stm32_project/build",
+  "command": "C:\\ARM\\cross-cortex\\bin\\arm-none-eabi-gcc.exe -I../Libraries/CMSIS/Include -I../Libraries/CMSIS/Device/ST/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../include -mcpu=cortex-m4  -mthumb -ffunction-sections -fdata-sections          -g -fno-common -fmessage-length=0 -specs=nano.specs -specs=nosys.specs -std=gnu99 -Og -g -DDEBUG -DTRACE   -DSTM32F4xx_MD -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o CMakeFiles\\Appd.elf.dir\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_rcc.c.obj -c E:\\Coding\\STM32\\Projects\\clear_stm32_project\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_rcc.c",
+  "file": "E:/Coding/STM32/Projects/clear_stm32_project/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c"
+},
+{
+  "directory": "E:/Coding/STM32/Projects/clear_stm32_project/build",
+  "command": "C:\\ARM\\cross-cortex\\bin\\arm-none-eabi-gcc.exe -I../Libraries/CMSIS/Include -I../Libraries/CMSIS/Device/ST/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../include -mcpu=cortex-m4  -mthumb -ffunction-sections -fdata-sections          -g -fno-common -fmessage-length=0 -specs=nano.specs -specs=nosys.specs -std=gnu99 -Og -g -DDEBUG -DTRACE   -DSTM32F4xx_MD -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o CMakeFiles\\Appd.elf.dir\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_exti.c.obj -c E:\\Coding\\STM32\\Projects\\clear_stm32_project\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_exti.c",
+  "file": "E:/Coding/STM32/Projects/clear_stm32_project/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c"
+},
+{
+  "directory": "E:/Coding/STM32/Projects/clear_stm32_project/build",
+  "command": "C:\\ARM\\cross-cortex\\bin\\arm-none-eabi-gcc.exe -I../Libraries/CMSIS/Include -I../Libraries/CMSIS/Device/ST/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../include -mcpu=cortex-m4  -mthumb -ffunction-sections -fdata-sections          -g -fno-common -fmessage-length=0 -specs=nano.specs -specs=nosys.specs -std=gnu99 -Og -g -DDEBUG -DTRACE   -DSTM32F4xx_MD -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o CMakeFiles\\Appd.elf.dir\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_usart.c.obj -c E:\\Coding\\STM32\\Projects\\clear_stm32_project\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_usart.c",
+  "file": "E:/Coding/STM32/Projects/clear_stm32_project/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c"
+},
+{
+  "directory": "E:/Coding/STM32/Projects/clear_stm32_project/build",
+  "command": "C:\\ARM\\cross-cortex\\bin\\arm-none-eabi-gcc.exe -I../Libraries/CMSIS/Include -I../Libraries/CMSIS/Device/ST/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../include -mcpu=cortex-m4  -mthumb -ffunction-sections -fdata-sections          -g -fno-common -fmessage-length=0 -specs=nano.specs -specs=nosys.specs -std=gnu99 -Og -g -DDEBUG -DTRACE   -DSTM32F4xx_MD -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o CMakeFiles\\Appd.elf.dir\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_pwr.c.obj -c E:\\Coding\\STM32\\Projects\\clear_stm32_project\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_pwr.c",
+  "file": "E:/Coding/STM32/Projects/clear_stm32_project/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c"
+},
+{
+  "directory": "E:/Coding/STM32/Projects/clear_stm32_project/build",
+  "command": "C:\\ARM\\cross-cortex\\bin\\arm-none-eabi-gcc.exe -I../Libraries/CMSIS/Include -I../Libraries/CMSIS/Device/ST/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../include -mcpu=cortex-m4  -mthumb -ffunction-sections -fdata-sections          -g -fno-common -fmessage-length=0 -specs=nano.specs -specs=nosys.specs -std=gnu99 -Og -g -DDEBUG -DTRACE   -DSTM32F4xx_MD -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o CMakeFiles\\Appd.elf.dir\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_tim.c.obj -c E:\\Coding\\STM32\\Projects\\clear_stm32_project\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_tim.c",
+  "file": "E:/Coding/STM32/Projects/clear_stm32_project/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c"
+},
+{
+  "directory": "E:/Coding/STM32/Projects/clear_stm32_project/build",
+  "command": "C:\\ARM\\cross-cortex\\bin\\arm-none-eabi-gcc.exe -I../Libraries/CMSIS/Include -I../Libraries/CMSIS/Device/ST/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../include -mcpu=cortex-m4  -mthumb -ffunction-sections -fdata-sections          -g -fno-common -fmessage-length=0 -specs=nano.specs -specs=nosys.specs -std=gnu99 -Og -g -DDEBUG -DTRACE   -DSTM32F4xx_MD -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -DUSE_FULL_ASSERT -o CMakeFiles\\Appd.elf.dir\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\misc.c.obj -c E:\\Coding\\STM32\\Projects\\clear_stm32_project\\Libraries\\STM32F4xx_StdPeriph_Driver\\src\\misc.c",
+  "file": "E:/Coding/STM32/Projects/clear_stm32_project/Libraries/STM32F4xx_StdPeriph_Driver/src/misc.c"
+}
+]
