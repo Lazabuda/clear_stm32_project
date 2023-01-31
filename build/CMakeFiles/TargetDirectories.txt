@@ -1,3 +1,0 @@
-E:/Coding/STM32/Projects/clear_stm32_project/build/CMakeFiles/Appd.elf.dir
-E:/Coding/STM32/Projects/clear_stm32_project/build/CMakeFiles/edit_cache.dir
-E:/Coding/STM32/Projects/clear_stm32_project/build/CMakeFiles/rebuild_cache.dir
